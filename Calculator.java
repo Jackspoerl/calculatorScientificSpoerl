@@ -101,110 +101,110 @@ public class Calculator {
                     case 4: // Cubic Feet
                         return volume;
                     case 5: // Milliliters
-                        return volume;
+                        return volume * 28320;
                     case 6: // Cubic Centimeters
-                        return volume;
+                        return volume * 28320;
                     case 7: // Teaspoons
-                        return volume;
+                        return volume * 5745.04;
                     case 8: // Tablespoons
-                        return volume;
+                        return volume * 1915.01;
                     case 9: // Fluid Ounces
-                        return volume;
+                        return volume * 957.506;
                     case 10: // Cups
-                        return volume;
+                        return volume * 117.987;
                     case 11: // Pints
-                        return volume;
+                        return volume * 59.844;
                     case 12: // Quarts
-                        return volume;
+                        return volume * 29.922;
                     case 13: // Cubic Inches
-                        return volume;
+                        return volume * 1728;
                 }
             case 5: // Milliliters
                 switch (targetUnit) {
                     case 1: // Cubic Meters
-                        return volume;
+                        return volume * 1e+6;
                     case 2: // Liters
-                        return volume;
+                        return volume * 1000;
                     case 3: // Gallons
-                        return volume;
+                        return volume / 3785;
                     case 4: // Cubic Feet
-                        return volume;
+                        return volume / 16.387;
                     case 5: // Milliliters
                         return volume;
                     case 6: // Cubic Centimeters
                         return volume;
                     case 7: // Teaspoons
-                        return volume;
+                        return volume / 4.929;
                     case 8: // Tablespoons
-                        return volume;
+                        return volume / 14.787;
                     case 9: // Fluid Ounces
-                        return volume;
+                        return volume / 29.574;
                     case 10: // Cups
-                        return volume;
+                        return volume / 240;
                     case 11: // Pints
-                        return volume;
+                        return volume / 473.2;
                     case 12: // Quarts
-                        return volume;
+                        return volume / 946.4;
                     case 13: // Cubic Inches
-                        return volume;
+                        return volume / 16.387;
                 }
             case 6: // Cubic Centimeters
                 switch (targetUnit) {
                     case 1: // Cubic Meters
-                        return volume;
+                        return volume / 1e+6;
                     case 2: // Liters
-                        return volume;
+                        return volume / 1000;
                     case 3: // Gallons
-                        return volume;
+                        return volume / 3785;
                     case 4: // Cubic Feet
-                        return volume;
+                        return volume / 28320;
                     case 5: // Milliliters
                         return volume;
                     case 6: // Cubic Centimeters
                         return volume;
                     case 7: // Teaspoons
-                        return volume;
+                        return volume / 4.929;
                     case 8: // Tablespoons
-                        return volume;
+                        return volume / 14.787;
                     case 9: // Fluid Ounces
-                        return volume;
+                        return volume / 29.574;
                     case 10: // Cups
-                        return volume;
+                        return volume / 240;
                     case 11: // Pints
-                        return volume;
+                        return volume / 473.2;
                     case 12: // Quarts
-                        return volume;
+                        return volume / 946.4;
                     case 13: // Cubic Inches
-                        return volume;
+                        return volume / 16.387;
                 }
             case 7: // Teaspoons
                 switch (targetUnit) {
                     case 1: // Cubic Meters
-                        return volume;
+                        return volume / 202900;
                     case 2: // Liters
-                        return volume;
+                        return volume / 202.9;
                     case 3: // Gallons
-                        return volume;
+                        return volume / 768;
                     case 4: // Cubic Feet
-                        return volume;
+                        return volume / 5745;
                     case 5: // Milliliters
-                        return volume;
+                        return volume * 4.929;
                     case 6: // Cubic Centimeters
-                        return volume;
+                        return volume * 4.929;
                     case 7: // Teaspoons
                         return volume;
                     case 8: // Tablespoons
-                        return volume;
+                        return volume / 3;
                     case 9: // Fluid Ounces
-                        return volume;
+                        return volume / 6;
                     case 10: // Cups
-                        return volume;
+                        return volume / 48.692;
                     case 11: // Pints
-                        return volume;
+                        return volume / 96;
                     case 12: // Quarts
-                        return volume;
+                        return volume / 192;
                     case 13: // Cubic Inches
-                        return volume;
+                        return volume / 3.325;
                 }
             case 8: // Tablespoons
                 switch (targetUnit) {
