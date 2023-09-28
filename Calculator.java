@@ -1,6 +1,5 @@
 public class Calculator {
 
-    //milliliters, cubic centimeters, teaspoons, tablespoons, fluid ounces, cups, pints, quarts, cubic inches
     public static double convertVolume(double volume, int sourceUnit, int targetUnit) {
         switch (sourceUnit) {
             case 1: // Cubic Meters
